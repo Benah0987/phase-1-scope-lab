@@ -3,6 +3,7 @@
 var customerName;
 //declared a global variable
 let bestCustomer = "not bob"
+const leastFavoriteCustomer = "customer"
 
 //function to update the customer name to uppercase
 function upperCaseCustomerName() {
@@ -16,3 +17,4 @@ function setBestCustomer() {
 function overwriteBestCustomer () {
     bestCustomer = "this is bob"
 }
+//function changeLeastFavoriteCustomer
