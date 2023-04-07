@@ -18,3 +18,8 @@ function overwriteBestCustomer () {
     bestCustomer = "this is bob"
 }
 //function changeLeastFavoriteCustomer
+function  changeLeastFavoriteCustomer() {
+    leastFavoriteCustomer = "Not Customer";
+}
+changeLeastFavoriteCustomer()
+//output is customer the value didnt change due to the constant
